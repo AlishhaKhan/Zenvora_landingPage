@@ -57,18 +57,18 @@ export default function ZenvoraLanding() {
         <main className="grid md:grid-cols-2 gap-8 items-center">
           <section>
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-              Find the career that's made for you.
+              Find the career that&apos;s made for you.
             </h2>
             <p className="text-slate-300 mb-6">
-              Zenvora uses AI-driven profiling and skill-gap analysis to match students & young professionals
+              Zenvora uses AI-driven profiling and skill-gap analysis to match students &amp; young professionals
               with high-potential career paths, learning roadmaps, and mentorship routes—so they can make
               confident action-ready choices.
             </p>
 
             <ul id="features" className="grid gap-3 mb-6">
               <li className="text-slate-200">• Personalized career recommendations</li>
-              <li className="text-slate-200">• Skill-gap analysis & learning roadmap</li>
-              <li className="text-slate-200">• Resume tips & interview prep (coming soon)</li>
+              <li className="text-slate-200">• Skill-gap analysis &amp; learning roadmap</li>
+              <li className="text-slate-200">• Resume tips &amp; interview prep (coming soon)</li>
             </ul>
 
             <form id="signup" onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-md">
@@ -87,16 +87,15 @@ export default function ZenvoraLanding() {
                 {status === "loading" ? "Sending..." : "Get Early Access"}
               </button>
             </form>
-
             {status === "success" && (
-              <p className="mt-3 text-sm text-green-300">Thank you — we'll email you when we launch!</p>
+              <p className="mt-3 text-sm text-green-300">Thank you — we&apos;ll email you when we launch!</p>
             )}
             {status === "error" && (
               <p className="mt-3 text-sm text-amber-300">Something went wrong. Please try again later.</p>
             )}
 
             <p className="mt-6 text-sm text-slate-400">
-              Want to collaborate or test the prototype? Reply to the confirmation email and we'll connect.
+              Want to collaborate or test the prototype? Reply to the confirmation email and we&apos;ll connect.
             </p>
           </section>
 
@@ -120,7 +119,7 @@ export default function ZenvoraLanding() {
         <section id="about" className="mt-12 text-slate-300">
           <h3 className="text-xl font-semibold mb-2">About Zenvora</h3>
           <p className="text-sm">
-            We’re building an AI-powered career platform that turns self-assessment into action—matching you
+            We&apos;re building an AI-powered career platform that turns self-assessment into action—matching you
             to roles, skills and learning paths aligned with your strengths.
           </p>
         </section>
